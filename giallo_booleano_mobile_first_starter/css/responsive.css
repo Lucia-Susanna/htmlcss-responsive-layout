@@ -1,0 +1,48 @@
+/* Soluzione qui */
+
+ /* Tablet > 768px */
+
+ @media (min-width:768px){
+  #topbar{
+    display: block;
+  }
+ 
+
+ main{
+  padding: 45px;
+ }
+
+ .recipe-origin{
+  display: inline-block;
+ }
+
+ .recipe header h2{
+  font-size: 2.2rem;
+ }
+
+ .quick-notes ul{
+  display: flex;
+  flex-wrap: wrap;
+ }
+
+ .quick-notes li{
+  width: calc(100%/3);
+  padding-left: 1rem;
+ }
+
+
+.social-networks button{
+  width: calc(100%/5)
+}
+
+.ads{
+  display: block;
+}
+.presentation  .clearfix img{
+float: left;
+ margin-right: 10px;
+}
+}
+
+/* /tablet */
+
