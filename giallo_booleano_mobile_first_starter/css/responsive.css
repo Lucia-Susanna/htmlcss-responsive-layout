@@ -46,3 +46,40 @@ float: left;
 
 /* /tablet */
 
+/* desktop >992px */
+
+@media (min-width: 992px){
+  .recipe header h2{
+    font-size: 2.7rem;
+  }
+  
+  .recipe-card{
+    display: flex;
+  } 
+  .recipe-video{
+    width: 70%;
+  }
+
+  .recipe-info{
+    width:30%
+  }
+
+  .quick-notes ul{
+    display: block;
+  }
+
+  .quick-notes li{
+    width: 100%;
+  }
+  
+  .social-networks .label {
+    display: inline;
+  }
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* /desktop */
