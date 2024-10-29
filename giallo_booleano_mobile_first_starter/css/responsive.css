@@ -56,12 +56,10 @@ float: left;
   .recipe-card{
     display: flex;
   } 
+  
   .recipe-video{
     width: 70%;
-  }
-
-  .recipe-info{
-    width:30%
+    max-height: 450px;
   }
 
   .quick-notes ul{
